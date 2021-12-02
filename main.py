@@ -1,4 +1,5 @@
-x = str(input())
-
-print(x.count(' ') + 1)
-
+my_string = "Latvijas Republika"
+x = 0
+for i in my_string:
+  x = x + 1
+  print(my_string[0:x])
